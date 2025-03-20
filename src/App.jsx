@@ -3,6 +3,7 @@ import "./App.css";
 import Presentation from "./components/Presentation";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
+import Projects from "./components/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,9 @@ function App() {
 
       {/* Serviços */}
       <Services />
+
+      {/* Projetos */}
+      <Projects />
 
       <h1>Vite + React</h1>
       <div className="card">
