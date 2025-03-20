@@ -5,8 +5,8 @@ const AboutMe = () => {
         <img src="/front-photo-02.png" alt="Foto de perfil" />
       </div>
       <div className="text-left text-white p-10 w-1/2 rounded-2xl">
-        <p className="text-6xl font-semibold">Sobre mim</p>
-        <p className="my-8">
+        <p className="text-7xl font-semibold">Sobre mim</p>
+        <p className="my-8 text-xl">
           Mestrando em Engenharia da Computação e Desenvolvedor <br />
           FullStack com experiência em PHP, JavaScript, Python, Laravel e <br />
           React. Foco na criação de aplicações eficientes e na qualidade do{" "}
