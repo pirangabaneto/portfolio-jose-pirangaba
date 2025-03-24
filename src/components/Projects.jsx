@@ -16,11 +16,11 @@ const Projects = () => {
         <div className="flex flex-row justify-center space-x-10 p-4">
           {contents.map((item, index) => (
             <div key={index} className="flex flex-col items-center">
-              <div className="w-[22rem] h-96 bg-[#CCC8C8] flex items-center justify-center rounded-xl overflow-hidden">
+              <div className="w-[22rem] h-96 bg-[#CCC8C8] flex items-center justify-center rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300">
                 <img
                   src={`/${item.image}`}
                   alt={item.title}
-                  className="w-full h-full object-cover rounded-xl shadow-lg border border-gray-300 bg-gray-200 hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover rounded-xl shadow-lg border border-gray-300 bg-gray-200"
                 />
               </div>
               <h3 className="font-semibold mt-4 text-xl text-center">
