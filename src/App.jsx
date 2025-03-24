@@ -6,42 +6,48 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Feedbacks from "./components/Feedbacks";
 import Contact from "./components/Contact";
+import Menu from "./components/Menu";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
+      <ScrollToTop />
+      {/* Menu */}
+      <Menu />
+
       {/* Apresentação */}
-      <Presentation />
+      <section id="presentation">
+        <Presentation />
+      </section>
 
       {/* Sobre mim */}
-      <AboutMe />
+      <section id="aboutMe">
+        <AboutMe />
+      </section>
 
       {/* Serviços */}
-      <Services />
+      <section id="services">
+        <Services />
+      </section>
 
       {/* Projetos */}
-      <Projects />
+      <section id="projects">
+        <Projects />
+      </section>
 
       {/* Depoimentos */}
-      <Feedbacks />
+      <section id="feedbacks">
+        <Feedbacks />
+      </section>
 
       {/* Entre em Contato*/}
-      <Contact />
+      <section id="contact">
+        <Contact />
+      </section>
 
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* Footer */}
+      <Menu bgColor="#900137" justify="justify-center" />
     </>
   );
 }
