@@ -1,3 +1,16 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css"; /* Peso normal */
+@import "@fontsource/poppins/600.css"; /* Semi-bold */
+@import "@fontsource/poppins/700.css"; /* Bold */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1f0f1;
+  font-family: "Poppins", sans-serif;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -17,9 +30,6 @@ a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -58,9 +68,6 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;
