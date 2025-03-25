@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Presentation from "./components/Presentation";
 import AboutMe from "./components/AboutMe";
