@@ -15,9 +15,11 @@ const Presentation = () => {
           <br /> Além de criar soluções eficientes, também pesquiso sobre
           <br /> séries temporais e leciono sobre Design Thinking.
         </p>
-        <button className="bg-[#900137] text-white mt-5 px-16 rounded-md">
-          Contrate-me
-        </button>
+        <a href="#contact">
+          <button className="bg-[#900137] text-white mt-5 px-16 rounded-md">
+            Contrate-me
+          </button>
+        </a>
       </div>
 
       <div className="flex flex-col items-center">
